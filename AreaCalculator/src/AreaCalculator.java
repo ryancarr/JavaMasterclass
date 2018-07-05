@@ -59,6 +59,10 @@ public class AreaCalculator
         return result;
     }
 
+    /**
+     * Quick method to print success or failure message to console
+     * @param result True if test was successful
+     */
     public static void printResults(boolean result)
     {
         if(result)
