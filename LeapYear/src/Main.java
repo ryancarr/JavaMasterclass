@@ -8,11 +8,11 @@ public class Main
 {
     public static void main(String[] args)
     {
-        printResults(-1600, isLeapyear(-1600));
-        printResults(1600, isLeapyear(1600));
-        printResults(2017, isLeapyear(2017));
-        printResults(2000, isLeapyear(2000));
-        printResults(1800, isLeapyear(1800));
+        printResults(-1600, isLeapYear(-1600));
+        printResults(1600, isLeapYear(1600));
+        printResults(2017, isLeapYear(2017));
+        printResults(2000, isLeapYear(2000));
+        printResults(1800, isLeapYear(1800));
     }
 
     /**
@@ -20,7 +20,7 @@ public class Main
      * @param year  Year as an integer between 1 and 9999
      * @return True if the given year is a leap year
      */
-    public static boolean isLeapyear(int year)
+    public static boolean isLeapYear(int year)
     {
         // Calculate if a given year is a leap year
         // Acceptable values are from 1 - 9999
