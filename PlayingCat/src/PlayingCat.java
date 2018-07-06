@@ -35,7 +35,8 @@ public class PlayingCat
 
         if(MIN <= temperature && temperature <= MAX)
             result = true;
-        else result = false;
+        else
+            result = false;
 
         return result;
     }
