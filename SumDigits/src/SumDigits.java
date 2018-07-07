@@ -31,12 +31,11 @@ public class SumDigits
             sum = -1;
         else
         {
-            do
+            while(number > 0)
             {
                 sum += number % 10;
                 number = number / 10;
             }
-            while(number > 0);
         }
 
         return sum;
