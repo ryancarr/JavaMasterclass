@@ -50,9 +50,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -135,15 +135,18 @@
       <workItem from="1530636092897" duration="699000" />
       <workItem from="1530801873741" duration="1329000" />
       <workItem from="1530803999058" duration="3315000" />
-      <workItem from="1530834390094" duration="1185000" />
+      <workItem from="1530834390094" duration="1581000" />
+      <workItem from="1530995794917" duration="583000" />
+      <workItem from="1530997125892" duration="290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6528000" />
+    <option name="totallyTimeSpent" value="7797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -224,9 +227,10 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="14.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="15.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
