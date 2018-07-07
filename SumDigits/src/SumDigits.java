@@ -15,6 +15,7 @@ public class SumDigits
         printResults(sumDigits(9) == -1);
         printResults(sumDigits(12) == 3);
         printResults(sumDigits(100) == 1);
+        printResults(sumDigits(44) == 8);
     }
 
     /**
