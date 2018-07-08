@@ -137,7 +137,7 @@
       <workItem from="1530834390094" duration="1581000" />
       <workItem from="1530995794917" duration="583000" />
       <workItem from="1530997125892" duration="4560000" />
-      <workItem from="1531070177710" duration="3454000" />
+      <workItem from="1531070177710" duration="4074000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of NumberInWord">
       <created>1530997638520</created>
@@ -150,7 +150,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15521000" />
+    <option name="totallyTimeSpent" value="16141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
