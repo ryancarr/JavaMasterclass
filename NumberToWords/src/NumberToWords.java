@@ -21,6 +21,14 @@ public class NumberToWords
         printResults(getDigitCount(-12) == -1);
         printResults(getDigitCount(5200) == 4);
         System.out.println("-----------------------");
+
+        System.out.println("Testing reverse()");
+        System.out.println("------------------------");
+        printResults(reverse(-121) == -121);
+        printResults(reverse(1212) == 2121);
+        printResults(reverse(1234) == 4321);
+        printResults(reverse(100) == 1);
+        System.out.println("------------------------");
     }
 
     /**
@@ -47,6 +55,36 @@ public class NumberToWords
         }
         else
             result = -1;
+
+        return result;
+    }
+
+    /**
+     * Take a number and reverse the digits
+     * @param number Number to reverse
+     * @return Reversed number
+     */
+    public static int reverse(int number)
+    {
+        int result = 0;
+        boolean negative = false;
+
+        if(number < MIN)
+        {
+            negative = true;
+            number *= -1;
+        }
+
+
+        while(number > MIN)
+        {
+            // Increase existing value by one position and add next last digit
+            result = (result * 10) + (number % 10);
+            number /= 10;
+        }
+
+        if(negative)
+            result *= -1;
 
         return result;
     }
