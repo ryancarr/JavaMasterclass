@@ -5,6 +5,7 @@
  */
 public class GreatestCommonDivisor
 {
+    // Minimum acceptable input for getGreatestCommonDivisor
     private static final int MIN = 10;
 
     /**
