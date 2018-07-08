@@ -98,50 +98,6 @@ public class NumberToWords
     }
 
     /**
-     * Converts an integer between 0 and 9 to its word form
-     * @param number Number between 0 and 9
-     */
-    public static String NumberInWord(int number)
-    {
-        String result = "";
-
-        switch(number)
-        {
-            case 0:
-                result += "Zero";
-                break;
-            case 1:
-                result += "One";
-                break;
-            case 2:
-                result += "Two";
-                break;
-            case 3:
-                result += "Three";
-                break;
-            case 4:
-                result += "Four";
-                break;
-            case 5:
-                result += "Five";
-                break;
-            case 6:
-                result += "Six";
-                break;
-            case 7:
-                result += "Seven";
-                break;
-            case 8:
-                result += "Eight";
-                break;
-            case 9:
-                result += "Nine";
-                break;
-        }
-        return result;
-    }
-
-    /**
      * Convert a number into word form representing each digit
      * @param number Number to be converted
      */
@@ -156,13 +112,45 @@ public class NumberToWords
         {
             while (number > MIN)
             {
-                result += NumberInWord(number % 10) + " ";
+                switch(number % 10)
+                {
+                    case 0:
+                        result += "Zero ";
+                        break;
+                    case 1:
+                        result += "One ";
+                        break;
+                    case 2:
+                        result += "Two ";
+                        break;
+                    case 3:
+                        result += "Three ";
+                        break;
+                    case 4:
+                        result += "Four ";
+                        break;
+                    case 5:
+                        result += "Five ";
+                        break;
+                    case 6:
+                        result += "Six ";
+                        break;
+                    case 7:
+                        result += "Seven ";
+                        break;
+                    case 8:
+                        result += "Eight ";
+                        break;
+                    case 9:
+                        result += "Nine ";
+                        break;
+                }
                 number /= 10;
             }
 
             if(digits > getDigitCount(temp))
                 for(int i = getDigitCount(temp); i < digits;i++)
-                    result += NumberInWord(0) + " ";
+                    result += "Zero ";
         }
         else
             result = "Invalid Value";
