@@ -1,3 +1,8 @@
+/**
+ * Title   : PerfectNumber
+ * Author  : Ryan Carr
+ * Purpose : Determine if a given number is a perfect number or not
+ */
 public class PerfectNumber
 {
     // Minimum acceptable value
