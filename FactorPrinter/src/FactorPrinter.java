@@ -28,14 +28,14 @@ public class FactorPrinter
     {
         String result = "";
 
-        if(number >= MIN)
+        if(MIN <= number)
         {
             for(int i = 1; i <= number;i++)
             {
                 int temp = number % i;
 
                 if(temp == 0)
-                    result = result + i + " ";
+                    result += i + " ";
             }
         }
         else
