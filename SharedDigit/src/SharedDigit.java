@@ -29,7 +29,9 @@ public class SharedDigit
         boolean result = false;
 
         if((10 > first || first > 99) || (10 > second || second > 99))
-            result = false;
+        {
+            // Do nothing result is already false
+        }
         else
         {
             int lastDigit = first % 10;
