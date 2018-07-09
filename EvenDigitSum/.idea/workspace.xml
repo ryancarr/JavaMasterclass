@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87fa9c73-9bba-4a5d-adb6-d2e9eef9277b" name="Default" comment="" />
+    <list default="true" id="dff050b9-f464-4500-8f60-5e9ace6eff8d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../SharedDigit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SharedDigit/src/SharedDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="EvenDigitSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EvenDigitSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="587">
+              <caret line="48" column="7" selection-start-line="48" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -39,7 +43,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/EvenDigitSum.java" />
       </list>
     </option>
   </component>
@@ -64,14 +68,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="LeapYear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeapYear" type="462c0819:PsiDirectoryNode" />
+              <item name="EvenDigitSum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvenDigitSum" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -83,7 +87,6 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -104,9 +107,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LeapYear" />
+    <configuration name="EvenDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvenDigitSum" />
+      <module name="EvenDigitSum" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -152,7 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EvenDigitSum" />
       </list>
     </recent_temporary>
   </component>
@@ -161,36 +164,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="87fa9c73-9bba-4a5d-adb6-d2e9eef9277b" name="Default" comment="" />
-      <created>1529255390412</created>
+      <changelist id="dff050b9-f464-4500-8f60-5e9ace6eff8d" name="Default" comment="" />
+      <created>1531071852869</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1529255390412</updated>
-      <workItem from="1529255391673" duration="2125000" />
-      <workItem from="1530576958753" duration="73000" />
-      <workItem from="1530834406636" duration="198000" />
-      <workItem from="1530835615221" duration="355000" />
-      <workItem from="1530997850143" duration="154000" />
+      <updated>1531071852869</updated>
+      <workItem from="1531071855665" duration="660000" />
+      <workItem from="1531072725952" duration="9000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit of LeapYear">
-      <created>1530577014620</created>
+    <task id="LOCAL-00001" summary="Initial commit of EvenDigitSum">
+      <created>1531072482446</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1530577014620</updated>
+      <updated>1531072482446</updated>
     </task>
-    <task id="LOCAL-00002" summary="Fixed method name isLeapYear">
-      <created>1530835741280</created>
+    <task id="LOCAL-00002" summary="Update Unversioned files">
+      <created>1531072514249</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1530835741280</updated>
+      <updated>1531072514249</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2905000" />
+    <option name="totallyTimeSpent" value="669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -215,15 +215,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,51 +233,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="Initial Commit of LeapYear" />
-    <MESSAGE value="Fixed method name isLeapYear" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed method name isLeapYear" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
+    <MESSAGE value="Initial commit of EvenDigitSum" />
+    <MESSAGE value="Update Unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Unversioned files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/EvenDigitSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/EvenDigitSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="587">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
         </state>
       </provider>
     </entry>
