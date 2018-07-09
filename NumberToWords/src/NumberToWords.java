@@ -111,10 +111,7 @@ public class NumberToWords
 
         if(number >= MIN)
         {
-            if(number == 0)
-                System.out.println("Zero");
-
-            while (number > MIN)
+            do
             {
                 switch(number % 10)
                 {
@@ -150,7 +147,7 @@ public class NumberToWords
                         break;
                 }
                 number /= 10;
-            }
+            } while (number > MIN);
 
             if(digits > getDigitCount(temp))
                 for(int i = getDigitCount(temp); i < digits;i++)
