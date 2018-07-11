@@ -36,6 +36,7 @@ public class NumberToWords
         numberToWords(1010);
         numberToWords(1000);
         numberToWords(-12);
+        numberToWords(0);
         System.out.println("------------------------");
     }
 
@@ -108,9 +109,9 @@ public class NumberToWords
         number = reverse(number);
         int temp = number;
 
-        if(number > MIN)
+        if(number >= MIN)
         {
-            while (number > MIN)
+            do
             {
                 switch(number % 10)
                 {
@@ -146,7 +147,7 @@ public class NumberToWords
                         break;
                 }
                 number /= 10;
-            }
+            } while (number > MIN);
 
             if(digits > getDigitCount(temp))
                 for(int i = getDigitCount(temp); i < digits;i++)
@@ -155,9 +156,11 @@ public class NumberToWords
         else
             result = "Invalid Value";
 
-        result = result.trim();
-
-        System.out.println(result);
+        if(result.length() > 0)
+        {
+            result = result.trim();
+            System.out.println(result);
+        }
     }
 
     /**
