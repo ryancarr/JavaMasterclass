@@ -17,21 +17,35 @@ public class LargestPrime
         printResults(getLargestPrime(45) == 5);
         printResults(getLargestPrime(-1) == -1);
         printResults(getLargestPrime(2) == 2);
+        printResults(getLargestPrime(16) == 2);
     }
 
     /**
      * Gets the largest prime factor of the given number
-     * @param number
-     * @return
+     * @param number Number to be analyzed
+     * @return Largest prime factor or -1 if no prime factors exist
      */
     public static int getLargestPrime(int number)
     {
         int result = -1;
+        int largestPrime = 2;
 
-        // TODO: Solve problem
-        // Calculate largest factor
-        // Determine if factor is prime
-        // If not prime get another factor
+        if(number > 1 && number % 2 == 0)
+            result = 2;
+
+        while(number > largestPrime)
+        {
+            if(number % largestPrime == 0)
+            {
+                number /= largestPrime;
+                largestPrime = 2;
+            }
+            else
+                largestPrime++;
+        }
+
+        if(largestPrime != 2)
+            result = largestPrime;
 
         return result;
     }
