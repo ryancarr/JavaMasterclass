@@ -16,6 +16,7 @@ public class LargestPrime
         printResults(getLargestPrime(0) == -1);
         printResults(getLargestPrime(45) == 5);
         printResults(getLargestPrime(-1) == -1);
+        printResults(getLargestPrime(2) == 2);
     }
 
     /**
