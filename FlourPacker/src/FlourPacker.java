@@ -6,8 +6,8 @@
 public class FlourPacker
 {
     // Size of flour bags
-    public static final int bigSize = 5;
-    public static final int smallSize = 1;
+    public static final int BIG_SIZE = 5;
+    public static final int SMALL_SIZE = 1;
 
     /**
      * Main entry point of program
@@ -37,14 +37,14 @@ public class FlourPacker
 
         if(bigCount >= 0 && smallCount >= 0 && goal >= 0)
         {
-            int neededBig = goal / bigSize;
+            int neededBig = goal / BIG_SIZE;
 
             if(neededBig > bigCount)
-                goal -= (bigCount * bigSize);
+                goal -= (bigCount * BIG_SIZE);
             else
-                goal -= (neededBig * bigSize);
+                goal -= (neededBig * BIG_SIZE);
 
-            if(goal <= (smallCount * smallSize) || goal == 0)
+            if(goal <= (smallCount * SMALL_SIZE) || goal == 0)
                 result = true;
         }
 
