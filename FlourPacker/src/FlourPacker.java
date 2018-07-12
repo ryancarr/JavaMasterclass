@@ -37,36 +37,16 @@ public class FlourPacker
 
         if(bigCount >= 0 && smallCount >= 0 && goal >= 0)
         {
-            if((bigCount * bigSize) + (smallCount * smallSize) >= goal)
-            {
-                // TODO: Find more better solution, possibly using modulo
-                int remainingGoal = goal;
+            int remainingGoal = 0;
+            int neededBig = goal / bigSize;
 
-                // Decrease size of remainingGoal one big bag at a time
-                while(bigCount > 0 && remainingGoal > 0)
-                {
-                    remainingGoal -= bigSize;
+            if(neededBig > bigCount)
+                remainingGoal = goal - (bigCount * bigSize);
+            else
+                remainingGoal = goal - (neededBig * bigSize);
 
-                    if(remainingGoal < bigSize )
-                        break;
-
-                    bigCount--;
-                }
-
-                // Decrease size of remainingGoal one small bag at a time
-                while(smallCount > 0 && remainingGoal > 0)
-                {
-                    remainingGoal -= smallSize;
-
-                    if(remainingGoal == 0)
-                        break;
-
-                    smallCount--;
-                }
-
-                if(remainingGoal == 0)
-                    result = true;
-            }
+            if(remainingGoal <= (smallCount * smallSize) || remainingGoal == 0)
+                result = true;
         }
 
         return result;
