@@ -37,15 +37,14 @@ public class FlourPacker
 
         if(bigCount >= 0 && smallCount >= 0 && goal >= 0)
         {
-            int remainingGoal = 0;
             int neededBig = goal / bigSize;
 
             if(neededBig > bigCount)
-                remainingGoal = goal - (bigCount * bigSize);
+                goal -= (bigCount * bigSize);
             else
-                remainingGoal = goal - (neededBig * bigSize);
+                goal -= (neededBig * bigSize);
 
-            if(remainingGoal <= (smallCount * smallSize) || remainingGoal == 0)
+            if(goal <= (smallCount * smallSize) || goal == 0)
                 result = true;
         }
 
