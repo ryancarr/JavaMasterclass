@@ -17,6 +17,7 @@ public class MinAndMaxChallenge
         int max = 0;
         int number;
         Scanner scanner = new Scanner(System.in);
+        boolean first = true;
 
         do
         {
@@ -26,9 +27,9 @@ public class MinAndMaxChallenge
             {
                 number = scanner.nextInt();
 
-                // First loop both min and max will be 0
-                if(min == 0 && max == 0)
+                if(first)
                 {
+                    first = false;
                     min = number;
                     max = number;
                 }
