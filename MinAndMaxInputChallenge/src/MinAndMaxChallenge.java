@@ -19,7 +19,7 @@ public class MinAndMaxChallenge
         Scanner scanner = new Scanner(System.in);
         boolean first = true;
 
-        do
+        while(true)
         {
             System.out.println("Enter a number: ");
             // Check if the input ix an integer
@@ -43,7 +43,7 @@ public class MinAndMaxChallenge
                 break;
 
             scanner.nextLine();
-        }while(true);
+        }
 
         System.out.println("Min = " + min);
         System.out.println("Max = " + max);
